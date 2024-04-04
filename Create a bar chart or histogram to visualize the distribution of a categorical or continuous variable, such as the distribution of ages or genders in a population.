@@ -1,0 +1,20 @@
+```python
+import matplotlib.pyplot as plt
+
+# Sample ages data
+ages = [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75]
+frequency = [100, 200, 300, 400, 500, 450, 350, 250, 150, 100, 50]  # corresponding frequency for each age
+
+# Plotting the bar chart
+plt.figure(figsize=(10, 6))
+plt.bar(ages, frequency, color='skyblue')
+
+# Adding labels and title
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.title('Distribution of Ages in a Population')
+plt.xticks(ages)
+
+# Displaying the plot
+plt.show()
+```
